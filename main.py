@@ -122,9 +122,5 @@ def make_best_items_report(item_embeddings, book_id, num_search_items):
 # book_id 2: Harry Potter and the Philosopher's Stone by J.K. Rowling, Mary GrandPré
 # book_id 9: Angels & Demons by Dan Brown
 report01 = make_best_items_report(item_embeddings, 2, 10)
+print("------------------------------------------------")
 report02 = make_best_items_report(item_embeddings, 9, 10)
-
-print("report01")
-print(report01)
-print("report02")
-print(report02)
